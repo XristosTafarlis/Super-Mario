@@ -27,7 +27,7 @@ var PreloadState = {
 		//Sound preloads
 		this.load.audio('mushroomSpawn', ['audio/mushroomSpawn.mp3', 'audio/mushroomSpawn.ogg']);
 		this.load.audio('mushroomKill', ['audio/mushroomKill.mp3', 'audio/mushroomKill.ogg']);
-		this.load.audio('death', ['audio/MarioDeath.mp3', 'audio/MarioDeath.ogg']);
+		this.load.audio('death', ['audio/RIP.mp3', 'audio/RIP.ogg']);
 		this.load.audio('Qmark', ['audio/bonus.mp3', 'audio/bonus.ogg']);
 		this.load.audio('pipe', ['audio/pipe.mp3', 'audio/pipe.ogg']);
 		this.load.audio('peru', ['audio/suita.mp3', 'audio/suita.ogg']);

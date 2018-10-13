@@ -16,6 +16,8 @@ var MainMenu = {
 			//Updating current map
 			localStorage.setItem("currentLevel", 1);
 			currentMap = parseInt(localStorage.getItem("currentLevel"));
+			
+			LVLmusic.stop();
 
 			map = game.add.tilemap('level1');
 			game.state.start('GamePlay');
@@ -28,6 +30,8 @@ var MainMenu = {
 			//Updating current map
 			localStorage.setItem("currentLevel", 2);
 			currentMap = parseInt(localStorage.getItem("currentLevel"));
+			
+			LVLmusic.stop();
 
 			map = game.add.tilemap('level2');
 			game.state.start('GamePlay');
@@ -40,6 +44,8 @@ var MainMenu = {
 			//Updating current map
 			localStorage.setItem("currentLevel", 3);
 			currentMap = parseInt(localStorage.getItem("currentLevel"));
+			
+			LVLmusic.stop();
 
 			map = game.add.tilemap('level3');
 			game.state.start('GamePlay');

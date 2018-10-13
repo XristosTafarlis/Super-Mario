@@ -30,7 +30,7 @@ var PreloadState = {
 		this.load.audio('death', ['audio/MarioDeath.mp3', 'audio/MarioDeath.ogg']);
 		this.load.audio('Qmark', ['audio/bonus.mp3', 'audio/bonus.ogg']);
 		this.load.audio('pipe', ['audio/pipe.mp3', 'audio/pipe.ogg']);
-		this.load.audio('peru', ['audio/bgm.mp3', 'audio/bgm.ogg']);
+		this.load.audio('peru', ['audio/suita.mp3', 'audio/suita.ogg']);
 		this.load.audio('click', ['audio/coin.wav']);
 		this.load.audio('rip', ['audio/stomp.wav']);
 		this.load.audio('sout', ['audio/kick.wav']);

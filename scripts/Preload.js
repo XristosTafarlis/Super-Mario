@@ -28,11 +28,11 @@ var PreloadState = {
 		this.load.audio('mushroomSpawn', ['audio/mushroomSpawn.mp3', 'audio/mushroomSpawn.ogg']);
 		this.load.audio('mushroomKill', ['audio/mushroomKill.mp3', 'audio/mushroomKill.ogg']);
 		this.load.audio('death', ['audio/RIP.mp3', 'audio/RIP.ogg']);
-		this.load.audio('Qmark', ['audio/bonus.mp3', 'audio/bonus.ogg']);
+		this.load.audio('Qmark', ['audio/Tseck.mp3', 'audio/Tseck.ogg']);
 		this.load.audio('pipe', ['audio/pipe.mp3', 'audio/pipe.ogg']);
 		this.load.audio('suita', ['audio/suita.mp3', 'audio/suita.ogg']);
 		this.load.audio('peru', ['audio/BTC.mp3', 'audio/BTC.ogg']);
-		this.load.audio('click', ['audio/Tseck.mp3']); //coin sound
+		this.load.audio('click', ['audio/coin.wav']);
 		this.load.audio('rip', ['audio/stomp.wav']);
 		this.load.audio('sout', ['audio/kick.wav']);
 		this.load.audio('hop', ['audio/jump.wav']);

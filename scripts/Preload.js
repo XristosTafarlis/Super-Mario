@@ -30,7 +30,8 @@ var PreloadState = {
 		this.load.audio('death', ['audio/RIP.mp3', 'audio/RIP.ogg']);
 		this.load.audio('Qmark', ['audio/bonus.mp3', 'audio/bonus.ogg']);
 		this.load.audio('pipe', ['audio/pipe.mp3', 'audio/pipe.ogg']);
-		this.load.audio('peru', ['audio/suita.mp3', 'audio/suita.ogg']);
+		this.load.audio('suita', ['audio/suita.mp3', 'audio/suita.ogg']);
+		this.load.audio('peru', ['audio/BTC.mp3', 'audio/BTC.ogg']);
 		this.load.audio('click', ['audio/Tseck.mp3']); //coin sound
 		this.load.audio('rip', ['audio/stomp.wav']);
 		this.load.audio('sout', ['audio/kick.wav']);

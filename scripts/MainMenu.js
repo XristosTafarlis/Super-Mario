@@ -1,8 +1,12 @@
 var MainMenu = {
 	create: function(){
 		this.stage.backgroundColor = '#000020';
-
-		//Creating Super Mario
+		
+		//Music
+		LVLmusic = game.add.audio("suita");
+		LVLmusic.play('',0,1,true);
+		
+		//Creating Super Mario Title
 		var superMario = game.add.image(256, 40, 'Title');
 		superMario.anchor.set(0.5, 0.5);
 		
